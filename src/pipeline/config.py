@@ -2,11 +2,9 @@
 
 import os
 from pathlib import Path
-from typing import Literal
 
 import yaml
-from pydantic import BaseModel, ConfigDict, Field
-
+from pydantic import BaseModel, ConfigDict
 
 
 class Config(BaseModel):
